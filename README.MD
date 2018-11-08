@@ -1,4 +1,8 @@
 #### The steps in order to start your learning path
+
+You can use the video instead of doing all steps below.
+https://www.youtube.com/watch?v=-tMygyo4E8Y
+I suggest watching the video and linking with the steps
  
 0. Create a github account 
 
