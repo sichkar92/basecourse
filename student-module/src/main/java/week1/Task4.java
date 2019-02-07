@@ -12,7 +12,11 @@ public class Task4 {
         int c = Integer.parseInt(args[2]);
 
 
-//      Yours code...
+        if(a*a == b*b + c*c || b*b == a*a + c*c || c*c == a*a + b*b) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
 
     }
 }
