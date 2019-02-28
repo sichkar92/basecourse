@@ -7,7 +7,12 @@ public class Task8 {
     public static void main(String[] args) {
         int purchase = Integer.parseInt(args[0]);
 
-
-//      Yours code...
+        if (purchase < 0){
+            System.out.println("Wrong input!");
+        } else if(purchase > 1000){
+            System.out.println(purchase-purchase*0.1);
+        } else {
+            System.out.println(purchase);
+        }
     }
 }
