@@ -10,6 +10,10 @@ public class Task6 {
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
 
-//      Yours code...
+        if(a == b || a == c || b == c){
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
  }
 }
