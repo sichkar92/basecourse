@@ -9,7 +9,13 @@ public class Task5 {
         int metersPerSecond = Integer.parseInt(args[0]);
         int kilometersPerHour = Integer.parseInt(args[1]);
 
-//      Yours code...
+        if (kilometersPerHour / 3.6 > metersPerSecond ){
+            System.out.println(kilometersPerHour);
+        } else if (kilometersPerHour / 3.6 < metersPerSecond) {
+            System.out.println(metersPerSecond);
+        }else {
+            System.out.println("The same speed");
+        }
 
     }
 }
