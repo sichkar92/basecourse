@@ -11,6 +11,12 @@ public class Task10 {
     public static void main(String[] args) {
         int number = Integer.parseInt(args[0]);
 
-        //      Yours code...
+       if(number / 100 == number % 10 && number / 100 == (number / 10) % 10 && number % 10 == (number / 10) % 10 ){
+           System.out.println("Все цифры одинаковые");
+       }else if (number / 100 == number % 10 || number / 100 == (number / 10) %10 || number % 10 == (number / 10) %10) {
+           System.out.println("Некоторые цифры одинаковые");
+       }else {
+           System.out.println("Нету одинаковых цифр");
+       }
     }
 }
