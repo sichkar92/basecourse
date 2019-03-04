@@ -12,7 +12,11 @@ public class Task14 {
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
 
-        //      Yours code...
+       if (a %10 == b % 10) {
+           System.out.println("true");
+       }else {
+           System.out.println("false");
+       }
 
     }
 }
